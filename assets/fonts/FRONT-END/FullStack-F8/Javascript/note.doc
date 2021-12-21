@@ -1,0 +1,11 @@
+
+    kiến thức cốt lõi
+
+1. String - chuỗi
+2. Number - số
+3. Array - mãng
+--- kiểm tra một var có phải là một array không
+    Array.isArray()
+--- Kiểm tra độ dài của một mãng languages
+    languages.length
+    

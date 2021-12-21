@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>học lập trình html</title>
+        <style>
+            .box{
+                width: 60px;
+                height: 60px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                
+            }
+            .box::selection{
+                color: yellowgreen;
+            }
+            .box1{
+                background-color: blueviolet;
+            }
+            .box2{
+                background-color: chocolate;
+            }
+            .box3{
+                background-color: red;
+            }
+            .box:active{
+                background-color:rgb(0,0,0);
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="box"> </div>
+        <h1>CSS pseudo-classes</h1>
+        <ol>
+            <li>:root</li>
+            <li>:hover</li>
+            <li>:active</li>
+            <li>:forst-child</li>
+            <li>:last-child</li>
+        </ol>
+        <div class="box box1">box1</div>
+        <div class="box box2">box2</div>
+        <div class="box box3">box3</div>
+    </body>
+</html>
